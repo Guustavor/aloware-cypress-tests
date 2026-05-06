@@ -1,64 +1,40 @@
-# Aloware Cypress Automation
+# Aloware QA Automation Project
 
-This project contains automated functional tests for the Aloware landing page using Cypress.
+## Objective
+Automation and QA validation project for Aloware landing page.
 
-## Overview
-
-The goal of this project is to validate key user flows on the landing page, focusing on navigation, visibility of important sections, and basic user interactions.
-
-## Test Scenarios
-
-The following scenarios are covered:
-
-* Navigation to the pricing page
-* Visibility of the testimonials section
-* Navigation through the main CTA and browser back behavior
-
-## Tech Stack
-
-* Cypress
-* JavaScript
-* Page Object Model (POM)
+## Technologies
+- Cypress
+- JavaScript
+- Node.js
+- Mochawesome
 
 ## Project Structure
-
-```
 cypress/
-  e2e/
-    homepage.cy.js
-    navigation.cy.js
-  pages/
-    homePage.js
-  support/
-    commands.js
-    e2e.js
-```
+├── e2e/
+├── fixtures/
+├── pages/
+├── reports/
+├── screenshots/
+└── support/
 
-## Running the project
-
-Install dependencies:
-
-```
+## Installation
 npm install
-```
 
-Open Cypress UI:
+## Run Cypress UI
+npx cypress open
 
-```
-npm run cy:open
-```
+## Run Headless
+npx cypress run
 
-Run in headless mode:
+## Reporting
+Reports are generated under:
+cypress/reports
 
-```
-npm run cy:run
-```
-
-## Notes
-
-The tests were written with a focus on readability and maintainability.
-Selectors were chosen to reflect real user interactions, avoiding forced actions whenever possible.
-
-## Author
-
-Gustavo Rodrigues
+## Covered Scenarios
+- Homepage validation
+- Navigation validation
+- CTA validation
+- Integration cards validation
+- UI validation
+- Responsive validation
