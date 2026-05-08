@@ -6,6 +6,10 @@
     "cy:run": "cypress run"
   },
   "devDependencies": {
-    "cypress": "^13.0.0"
+    "cypress": "^13.0.0",
+    "cypress-mochawesome-reporter": "^3.8.4",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^4.4.1",
+    "mochawesome-report-generator": "^6.3.2"
   }
 }

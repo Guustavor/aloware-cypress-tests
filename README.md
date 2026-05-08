@@ -36,6 +36,7 @@ npx cypress run
 ## Reporting
 Reports are generated under:
 cypress/reports
+The project uses Mochawesome for HTML test reporting.
 
 ## Notes
 
